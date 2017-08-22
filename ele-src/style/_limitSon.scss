@@ -1,0 +1,88 @@
+.limitSon{
+   width: 100%;
+// position: relative;
+   background: #f7f7f7;
+    .contain{
+       width: 100%;
+       
+       nav{
+           width: 100%;
+           height: 1rem;
+           line-height: 1rem;
+           background: #fff;
+           margin-bottom: 2px;
+       }
+        ul{
+          
+           height:305rem ;
+           width: 100%;
+          
+           li{  height:4.13rem ; 
+                background: #fff;
+                float: left;
+//              position: relative;
+//              background: #fff;
+                width: 50%;
+                border-right: 2px solid #f5f5f5;
+                border-bottom: 2px solid #f5f5f5;
+                overflow: hidden;
+                padding: .3rem;
+              p{
+                 width: 90%; 
+                 line-height: .6rem;
+                 overflow: hidden;
+                 text-wrap: nowrap;
+                 height: .5rem;
+              } 
+              img{
+                width:90% ;
+              
+              } 
+               
+               
+               
+           }
+         .instruction{
+            float: left;
+            bottom: 0;
+            width: 100%;
+            height: 2rem;
+//          background: palegreen;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: .3rem;
+            }
+        }
+       
+           
+           
+       }
+           
+       
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+

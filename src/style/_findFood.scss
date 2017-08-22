@@ -1,0 +1,385 @@
+#finderFood{
+    width: 100%;
+    height: 100%;
+    background: #f7f7f7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    .no{
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .keywordlist{
+        width: 100%;
+//      height: 1rem;
+        background: #fff;
+        overflow:hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        ul{
+//          width: 500px;
+            padding: 10px;
+        }
+        li{
+//         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+ 
+            text-wrap: nowrap;
+            margin: 0 0.2rem;
+            padding: 2px 3px; 
+            background: #fff;
+            overflow: hidden;
+            width:2.5rem;
+            border: 1px solid #ddd;
+            border-radius: .5rem;
+            text-align: center;
+            line-height: .5rem;
+            height: .8rem;
+        }
+
+        li.active{
+                border-color:#ff5339;
+                color: #ff5339;
+                font-weight: 700;
+        }
+    }
+   
+   
+    
+    .changeTab{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        padding-top:1.5rem;
+        overflow: scroll;
+        position: relative;
+
+        box-sizing: border-box;
+     
+       #scroller{
+//         height: 5000px;
+          padding-bottom:1rem;   
+       }
+         .content{
+            margin: 0 auto;
+            padding: 0 .24rem .333333rem;
+            width: 9.733333rem;
+            border-radius: .16rem;
+            background: #fff;
+            box-shadow: 0 0.026667rem 0.053333rem 0 rgb;
+            margin-bottom:.5rem;
+            
+              
+            h3{
+                overflow: hidden;
+                width: 100%;
+                height: 1rem;
+                padding: .3rem 0;
+              
+                span.right{
+                    float: right;
+                    font-size: 0.05rem;
+                    color: #999;
+                    font-weight: normal;
+                }
+            } 
+            
+             .detail{
+                 display: flex;
+                 justify-content: space-around;
+                 align-items: center;
+                 .food{
+                     flex-grow: 1;
+                     p{ 
+                         overflow: hidden;
+                         width:3.2rem;
+                         
+                         margin:.2rem 0;
+                         white-space: nowrap;
+//                       text-overflow:hidden;
+                         
+                         height: .5rem;
+                     }
+                     .price{
+                         color: #ff5339;
+                     }
+                     img{
+                         width:2.8rem
+                     }
+                     button{
+                        width: 95%;
+                        font-size: .5rem;
+                        margin: .186667rem auto 0;
+                        width: 2.666667rem;
+                        height: .746667rem;
+                        border: 1px solid #ff5339;
+                        border-radius: .08rem;
+                        color: #ff5339;
+                        text-align: center;
+                        font-size: .32rem;
+                        line-height: .72rem;
+                        background: #fff;
+                     }
+                 }
+                 
+             }
+         }
+    }
+    
+    .other{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        margin-top:1.5rem;
+        overflow: scroll;
+        position: relative;
+        box-sizing: border-box;
+        .food_res{
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              box-sizing: border-box;
+              flex-wrap:wrap;
+              
+             .food_box{
+                width: 49.8%;
+                background:#fff;
+                padding: .266667rem;
+                margin-bottom: .25rem;
+                img{
+
+                    width: 4.466667rem;
+                    height: 3.066667rem;
+                }
+                
+                
+                .foodItem,.foodDian,.foodMoney{
+                   margin-top: .3rem;
+                }
+               .foodMoney{
+                    color: #ff5339;
+                    font-weight: 700;
+                    font-size: .48rem;
+                    i{  font-size: .293333rem;
+                        font-style: normal;
+                        font-weight: normal;
+                    }
+                    
+               }
+                .FoodItem-1NOfW{
+                    float: right;
+                    display: flex;
+                    li{
+                        border: 1px solid #ff5339;
+                        border-radius: .053333rem;
+                        color: #ff5339;
+                        font-size: .08rem;
+                        margin-left: .1rem;
+
+                         font-style: normal;
+                        font-weight: normal;
+                    }
+                }
+                
+                
+                
+            }
+        
+        }
+       .ShopItem{
+           display: flex;
+           margin-bottom: .3rem;
+           background:#fff;
+           padding: .5rem 0;
+           .left{
+               flex-grow: 1;
+               padding: .15rem;
+               padding-top: 0;
+               img{
+                      width: 1.733333rem;
+                      height: 1.733333rem;
+               }
+           }
+           .right{
+                flex-grow: 6;
+                 
+               header{
+                  position: relative;
+                  width: 100%;
+                  
+                  h3{
+                      width: 100%;
+                      display: flex;                  
+                      align-items: center;
+                      
+                      .ShopItem-1BhC9{
+                          display: inline-block;
+                          font-size: .3rem;
+                          overflow: hidden;
+                          text-overflow: ellipsis;
+                          white-space: nowrap;
+                          background-image: linear-gradient(0deg,#ffd72a,#ffe143 79%);
+                          flex-shrink: 0;
+                          margin-right: .133333rem;
+                          width: .72rem;
+                          height: .4rem;
+                          border-radius: .053333rem;
+                      }
+                      .dianName{
+                          display: inline-block;
+                          font-size: .43rem;
+                          width:5.5rem ;
+                          white-space: nowrap;
+                          overflow: hidden;
+                          text-overflow: ellipsis;
+                      }  
+                  
+                  }
+                  .ShopItemJe2{
+                      position: absolute;
+                      right:0;
+                      top: 0;
+                      display: flex;
+                      width: 1.3rem;
+                      color: #666;
+                      font-size: .3rem;
+                      li{
+                          margin-left:5px;
+                      }
+                  } 
+               }
+               
+               .score{
+                   display: flex;
+                   font-size: .3rem;
+                   padding: .2rem 0;
+                   position: relative;
+                   .el-rate{
+                        margin-right: 10px;
+                       .el-rate__icon{
+                           font-size: .1rem; 
+                           margin-right: 3px;
+                       }
+                   }
+                 .ShopItem-ax7Ig{
+                     position: absolute;
+                     top: .2rem;
+                     right: 0;
+                     display: flex;
+                     li{
+                          border:1px solid #44a5ff;
+                          padding: 0 .053333rem;
+                          background: #fff;
+                          color: #2395ff;
+                          margin-right: .08rem;
+                          border-radius: .053333rem;
+                     }
+                     li.active{
+                         background: #2395ff;
+                         color: #fff;
+                     }
+                 }  
+                   
+               }
+              .hot{
+                 width: 100%;
+                 font-size: .3rem; 
+                 padding-bottom: .5rem;
+                 ul{
+                    float: right;
+                    display: flex;
+                 }
+               
+                } 
+               .Activity{
+                   width: 100%;
+                   position: relative;
+                   display: flex;
+                   align-items: center;
+                   .xin{
+                      
+                        margin-right: .173333rem;
+                        width: .346667rem;
+                        height: .36rem;
+                        border-radius: .053333rem;
+                        color: #fff;
+                        text-align: center;
+                        font-size: .266667rem;
+                        line-height: .346667rem;
+                        background: rgb(112, 188, 70);
+                   }
+                   .reduce{
+                           background: rgb(240, 115, 115);
+                   }
+                   .Activity-3Ztac{
+                       line-height: .5rem;
+                       font-size: .3rem; 
+                   }
+                   
+               }
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+           }
+       }
+       
+       
+       
+       
+       
+       
+       
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
